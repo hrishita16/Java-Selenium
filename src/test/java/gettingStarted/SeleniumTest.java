@@ -64,10 +64,17 @@ public class SeleniumTest {
 //		DatePickerDemo obj11 = new DatePickerDemo();
 //		obj11.datePickerDemo();
 		
-		MouseActions obj12 = new MouseActions();
-		//obj12.mouseHoverDemo();
-		//obj12.clickActionDemo();
-		obj12.dragDropDemo();
+//		MouseActions obj12 = new MouseActions();
+//		//obj12.mouseHoverDemo();
+//		//obj12.clickActionDemo();
+//		obj12.dragDropDemo();
+		
+//		SlidersDemo.handlingSliderDemo();
+		
+		//KeyBoardShortcuts.keyBoardShortcutsDemo();
+		//KeyBoardShortcuts.keyBoardShortcutsDemo2();
+		
+		WindowsAndTab.windowsAndTabDemo();
 		
 		
 		
