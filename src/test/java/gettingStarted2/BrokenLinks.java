@@ -28,7 +28,8 @@ public class BrokenLinks {
 			
 			//hit url to the server
 			try {
-				URL linkUrl = new URL(hrefAttValue);
+				URL linkUrl = new URL(hrefAttValue);	//this is deprecated after java version 20 +
+				//URL linkUrl = URI.create(hrefAttValue).toURL();	//use this in java versions 20 & higher
 				HttpURLConnection conn = (HttpURLConnection) linkUrl.openConnection();	//open the connection to server
 				conn.connect();	//connect to server and send req
 				
