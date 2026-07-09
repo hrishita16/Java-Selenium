@@ -19,7 +19,7 @@ public class Main {
 		//DisableAutomatedMsgOnScreen.disableMsgOnScreen();
 		//IncognitoMode.incognitoModeDemo();
 		//EnableExtensionAtRuntime.enableExtensions();
-		BrokenLinks.handlingBrokenLinks();
+		//BrokenLinks.handlingBrokenLinks();
 
 	}
 
