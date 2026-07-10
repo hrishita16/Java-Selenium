@@ -24,7 +24,7 @@ public class ReadingPropertiesFile {
 		
 		//reading all the keys from property file
 		Set<String> keys = prop.stringPropertyNames();
-		System.out.println(key);
+		System.out.println(keys);
 		
 		//same keys can be read in another way
 		Set<Object> propKeys = prop.keySet();
