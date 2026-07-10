@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngTests2.HardvsSoftAssertions">
+      <class name="testngTests2.DataProviderDemo">
         <methods>
-          <include name="test_hardAssertions"/>
-          <include name="test_softAssertions"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testLogin" invocation-numbers="0 4"/>
         </methods>
-      </class> <!-- testngTests2.HardvsSoftAssertions -->
+      </class> <!-- testngTests2.DataProviderDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
