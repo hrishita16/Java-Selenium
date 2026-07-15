@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="ParamterTest(failed)">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+  <listeners>
+    <listener class-name="testngTests2.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="goupingTest(failed)">
     <classes>
-      <class name="testngTests2.XmlParameterTesting">
+      <class name="testngTests2.ListenersTestOrangeHrm">
         <methods>
-          <include name="tearDown"/>
-          <include name="testUrl"/>
-          <include name="setup"/>
+          <include name="ItestHomePageTitle"/>
+          <include name="openapp"/>
+          <include name="teardown"/>
           <include name="testLogo"/>
-          <include name="testTitle"/>
+          <include name="testAppUrl"/>
         </methods>
-      </class> <!-- testngTests2.XmlParameterTesting -->
+      </class> <!-- testngTests2.ListenersTestOrangeHrm -->
     </classes>
-  </test> <!-- ParamterTest(failed) -->
+  </test> <!-- goupingTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
