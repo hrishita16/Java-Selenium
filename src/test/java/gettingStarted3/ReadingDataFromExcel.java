@@ -27,6 +27,7 @@ public class ReadingDataFromExcel {
 		/* note: in excel --> rows start from 0 and cells start from 1
 		 		 in java --> rows and cells both start from 0
 		*/
+		
 		for(int i=0;i<=totalRows;i++) {
 			
 			XSSFRow currRow =  sheet.getRow(i);
